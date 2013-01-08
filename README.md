@@ -1,4 +1,4 @@
-# TZ Portfolio v2.5
+# TZ Portfolio v2.5 - Joomla 2.5
 If you are a Joomla lover, you must see that is the best Content management system in the world (com_content). But the reality is that this system has not satisfied all of our needs. That why we build TZ Portfolio, which is an ideal content management system to fulfill all weaknesses of com_content.
 
 TZ Portfolio works on database of com_content, sothat you do not have to worry about importing or exporting data from your system (which already works with com_content).
