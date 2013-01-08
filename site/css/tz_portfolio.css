@@ -1,0 +1,371 @@
+.TzBlogMedia .tz_portfolio_image, .TzBlogSlider, .tz_portfolio_image{
+    text-align:left;
+}
+.item-page .TzBlogSlider{
+    float:none;
+}
+.tz_portfolio_image img{
+    display: block;
+}
+.item-page .tz_portfolio_image{
+    float:none;
+}
+.tz_portfolio_video iframe{
+    display: block;
+    margin: 0 auto;
+}
+.tz_portfolio_like_button{
+    border-bottom: 1px solid #C0C0C0;
+    margin: 20px 0;
+    padding: 15px 0;
+    width: 100%;
+}
+.tz_portfolio_like_button .TwitterButton{
+    float: left;
+    margin: 2px 24px 0 0;
+}
+.tz_portfolio_like_button .FacebookButton{
+    float: left;
+    /*margin: 2px 24px 0 0;*/
+}
+.tz_portfolio_like_button .GooglePlusOneButton{
+    float: left;
+    /*margin: 2px 24px 0 0;*/
+}
+.tz_portfolio_extra_fields{
+    width: 100%;
+    border-top: 1px dotted #c0c0c0;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+.tz_portfolio_extra_fields li{
+    list-style: none;
+    border-bottom: 1px dashed #c0c0c0;
+}
+.tz_portfolio_extra_fields .name{
+    font-weight: bold;
+}
+.tz_portfolio_attachments, .tz_portfolio_tag{
+    width: 100%;
+    border-top: 1px dashed #c0c0c0;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.tz_portfolio_attachments h4, .tz_portfolio_tag h4{
+    float: left;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+.tz_portfolio_attachments ul, .tz_portfolio_tag ul{
+    float: left;
+    margin: 0 !important;
+    padding: 0;
+    /*float: left;*/
+}
+
+.tz_portfolio_attachments li, .tz_portfolio_tag li{
+    list-style: none;
+    float: left;
+    display: block;
+    margin-right: 15px !important;
+}
+.tz_portfolio_comment{
+    width: 100%;
+    margin-top: 35px;
+}
+.tz_portfolio_comment .fb_iframe_widget, .tz_portfolio_comment .fb_iframe_widget span,
+ .tz_portfolio_comment .fb_iframe_widget span iframe{
+    width:100% !important;
+}
+.tz_portfolio_user .AuthorBlock{
+    background: none repeat scroll 0 0 #E8E7E8;
+}
+.tz_portfolio_user .AuthorBlock .AuthorAvatar{
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: block;
+    float: left;
+    margin: 0 15px 0 0;
+    padding: 8px;
+    box-shadow: 0px 0px 3px #ccc;
+
+}
+.flexslider{
+    margin:0;
+}
+.tz_portfolio_user .AuthorBlock .AuthorDetails{
+    margin: 0;
+}
+.tz_portfolio_user .AuthorBlock .AuthorName{
+    color: #0a51ba !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.tz_portfolio_user .AuthorBlock .AuthorDetails .AuthorName a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.tz_portfolio_user .AuthorBlock .AuthorDetails .AuthorName a:hover{
+    text-decoration: underline;
+}
+.tz_portfolio_user .AuthorBlock .AuthorDetails .AuthorUrl,.tz_portfolio_user .AuthorBlock .AuthorDetails .AuthorGender,
+.tz_portfolio_user .AuthorBlock .AuthorDetails .AuthorEmail {
+    color: #555555;
+    font-weight: bold;
+    margin: 0 4px 0 0;
+    padding: 0 8px 0 0;
+}
+.tz_portfolio_user .AuthorBlock .AuthorDetails span.AuthorUrl a, .AuthorBlock .AuthorDetails span.AuthorEmail span,
+   .tz_portfolio_user .AuthorBlock .AuthorDetails .AuthorGender span{
+    font-weight: normal;
+}
+
+.tz_portfolio_clear{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.tz_portfolio_tag li{
+    margin-right: 6px !important;
+}
+h2.TzCategoryTitle{
+  background: url(../assets/bg_title.png) center repeat-x;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #493c39;
+  font-family: 'NovecentowideBookBold';
+  text-align: center;
+  margin-bottom: 25px;
+}
+span.TzArticleImage img{
+  
+}
+h2.TzArticleTitle{
+    text-transform:uppercase;
+    font-size: 18px;
+    margin-top:10px;
+}
+.TzArticleInfo{
+    background:#e8e7e8;
+    padding:0 20px 10px 20px;
+}
+.TzArticleTag{
+    display:block;
+    padding: 0 0 15px
+}
+.clr {
+    clear:both;
+}
+.TzArticleTag span{
+    text-transform: uppercase;
+    display:inline;
+}
+.TzArticleTag a.tag{
+    background: #fff;
+    padding:3px 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #CCCCCC;
+    margin: 0 3px;
+}
+.TzArticleInfo span a{
+    
+}
+.TzArticleInfo span{
+    /*background:url(../assets/icons.png) no-repeat;*/
+    padding:3px 0;
+    float:left;
+    margin: 10px 20px 0 0;
+}
+.TzArticleInfo .TZCommentCount span{
+    float: inherit;
+    padding-left: 3px;
+}
+/*
+span.TzArticleCategory{
+    background-position: -6px -74px;
+}
+span.TzCreate{
+    background-position: -7px -50px;
+}
+span.TZPublished{
+    background-position: -6px -96px;
+}
+span.TzCreatedby{
+    background-position: -6px -26px;
+}
+span.TzModified{
+    background-position: -6px -147px;
+}
+
+span.TzHits{
+    background-position: -6px -120px;
+    padding-left: 30px;
+}
+span.TzArticleParentCategory{
+    background-position: -6px -220px;
+    padding-left: 30px;
+}*/
+.tz_portfolio_user{
+    background: #e8e7e8;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+.tz_portfolio_user h3.TzArticleAuthorTitle{
+    margin-top:0;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom:15px;
+    text-transform: uppercase;
+}
+.Tzactions{
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: right;
+    
+}
+ul.Tzactions li.print-icon, ul.Tzactions li.email-icon{
+    background:none;
+    padding:0;
+    display:inline;
+}
+h2.TzCategoryTitle span {
+    background: none repeat scroll 0 0 #EEEEEE;
+    padding: 0 20px;
+}
+
+span.TzBlogHits span.hits{
+    text-transform:none;
+}
+.TzBlog a, .TzTag a{
+    text-decoration:none;
+}
+.TzBlog a:hover{
+    background:none;
+}
+h3.TzBlogTitle, h3.TzUserTitle, h3.TzTagTitle{
+    text-transform:uppercase;
+    padding:0 0 5px 0;
+}
+.element .border-img div.tz_portfolio_image{
+    float:none;
+    margin-right:0;
+}
+ul.slides{
+    padding:0;
+}
+.TzArticleBlogInfo span, .TzTagArticleInfo span, .TzUserArticleInfo span{
+    margin-right:20px;
+}
+.TzArticleBlogInfo, .TzTagArticleInfo{
+    margin:10px 0;
+}
+a.TzReadmore{
+    display:inline;
+}
+.TzItem, .TzLeading, .TzItemsRow{
+    border-bottom:1px solid #e0e0e0;
+    margin-bottom:35px;
+    padding-bottom:35px;
+}
+.TzArticleImage{
+}
+.TzCategoryDesc{
+    padding-bottom:10px;
+}
+h3.TzItemsMoreTitle{
+    text-transform: uppercase;
+}
+.TzPagination ul{
+    width:100%;
+    text-align:center;
+}
+.TzPagination .TzCounter{
+    text-align:center;
+}
+.TzPagination ul li{
+    background: none !important;
+    display:inline;
+}
+.TzItemsMore{
+    border-bottom:1px solid #E0E0E0;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+
+.tz_portfolio_user_register input{
+    border: 1px solid #D3D3D3;
+    box-shadow: 0 1px 0 #FFFFFF;
+    color: #666666;
+    height: 30px;
+    line-height: 28px;
+}
+.tz_portfolio_user_register label{
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: -10px;
+    padding: 0;
+}
+.TzArticleExtraField {
+    background:#e8e7e8;
+    padding:25px;
+    float: left;
+    width: 100%;
+}
+.TzArticleExtraField h3.ExtraFieldTitle{
+    text-transform: uppercase;
+    border-bottom: 1px solid #dcdcdc;
+    margin-top:0 !important;
+    padding-bottom:10px;
+}
+.TzArticleExtraField ul.TzExtra li.TzEx{
+    background:none;
+    padding:0;
+    width: 50%;
+    float: left;
+}
+.TzArticleExtraField ul.TzExtra li.TzEx span.name{
+    color:#432d26;
+}
+.TzArticleExtraField ul.TzExtra li.TzEx span{
+    color:#666;
+}
+ 
+.TzBlogMedia .img-intro-left img{
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 15px;
+}
+.tz_portfolio_image .img-intro-left{
+    margin:0;
+}
+.TzPagination ul li{
+
+}
+.TzPagination ul li a, .TzPagination ul li span{
+    border-radius: 4px;
+    background:#fff;
+    border:1px solid #999;
+    margin-right: 12px;
+    padding: 5px 12px;
+    box-shadow: 0 1px 1px #EEEEEE;
+}
+
+.tz_comment_notice{
+    text-align: center;
+    color: red;
+}
+.content_rating img{
+    display: inherit !important;
+}
+
+.TzGoogleMap{
+    border-bottom: 1px solid #C0C0C0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.TzRelated .TzImage {
+    display: inline;
+}
+.TzRelated .TzTitle {
+    display: inline;
+    vertical-align: top;
+}

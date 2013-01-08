@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="file" method="upgrade">
+  <name>Idioma Português do Brasil</name>
+  <tag>pt-BR</tag>
+  <version>1.0.0</version>
+  <creationDate>29 de Outubro de 2012</creationDate>
+  <author>TZ PORTFOLIO - BRAZILIAN TRANSLATION TEAM</author>
+  <authorEmail></authorEmail>  
+  <authorUrl>https://www.facebook.com/groups/tzportfoliogrupobrasileiro/</authorUrl>
+  <copyright>Copyright © 2012 - All rights reserved.</copyright>
+  <license>GNU General Public License v2.0</license>
+  <description>
+    <![CDATA[Pacote de tradução para componentes, módulos e plugins do TZ PORTFOLIO by TEMPLAZA desde a versão 2.5.14 acima para o idioma português brasileiro.<br>
+      <h2>TZ PORTFOLIO - <a href="https://www.transifex.com/projects/p/tzportfolio/" target="blank">BRAZILIAN TRANSLATION TEAM in TRANSIFEX</a></h2>Time de tradução: Amaral Webdesigner, Jacks Ramos, Lelo Morais, Uriel dos Santos Souza e Uziel Almeida Oliveira.
+      <br>Obrigado pelo apoio e pela honrosa manifestação no
+        <a href="http://www.templaza.com/item/227-a-sincere-thank-from-templaza-to-tz-portfolio-developer-community-in-brazil">
+          <b>TEMPLAZA BLOG</b>
+        </a>
+        <br>Visite
+          <a href="https://www.facebook.com/groups/tzportfoliogrupobrasileiro/">nosso grupo no Facebook</a> e participe das melhorias, ou para tirar dúvidas. ]]></description>
+        <!-- estes arquivos vão para administrator/language/ -->
+          <fileset>
+            <files folder="administrator/language/pt-BR" target="administrator/language/pt-BR">
+              <filename>pt-BR.com_tz_portfolio.ini</filename>
+              <filename>pt-BR.com_tz_portfolio.sys.ini</filename>
+              <filename>pt-BR.plg_content_tz_portfolio_vote.ini</filename>
+                <filename>pt-BR.plg_content_tz_portfolio_vote.sys.ini</filename>
+                <filename>pt-BR.plg_search_tz_portfolio_categories.ini</filename>
+                <filename>pt-BR.plg_search_tz_portfolio_categories.sys.ini</filename>
+                <filename>pt-BR.plg_search_tz_portfolio_content.ini</filename>
+                <filename>pt-BR.plg_search_tz_portfolio_content.sys.ini</filename>
+            </files>
+            <!-- estes arquivos vão para (root)/language/ -->
+              <files folder="language/pt-BR" target="language/pt-BR">
+                <filename>pt-BR.com_tz_portfolio.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_archive.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_archive.sys.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_categories.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_categories.sys.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_features.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_features.sys.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_latest.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_latest.sys.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_news.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_news.sys.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_popular.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_popular.sys.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_random.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_articles_random.sys.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_categories.ini</filename>
+                <filename>pt-BR.mod_tz_portfolio_categories.sys.ini</filename>
+                
+              </files>
+            </fileset>
+          </extension>
