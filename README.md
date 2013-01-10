@@ -15,6 +15,10 @@ Try it now to feel the perfection!
 
 Documentation can be found on the wiki project page: http://wiki.templaza.com/TZ_Portfolio:Overview
 
+Demo: http://demo.tzportfolio.com/
+
+Version for Joomla 3.0.x: https://github.com/templaza/tz_portfolio
+
 *** Changelog ***
 
 12/19/12 - 2.5.19
