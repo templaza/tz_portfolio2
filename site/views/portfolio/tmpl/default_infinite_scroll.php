@@ -22,7 +22,7 @@ $params = $this -> params;
 ?>
 <div id="tz_append">
     <?php if($params -> get('tz_portfolio_layout') == 'ajaxButton'):?>
-    <a href="#tz_append">Add Items More</a>
+    <a href="#tz_append"><?php echo JText::_('COM_TZ_PORTFOLIO_ADD_ITEM_MORE');?></a>
     <?php endif;?>
 </div>
 
@@ -96,6 +96,7 @@ $params = $this -> params;
                     tz('#tz_append a').addClass('tzNomore');
                 },
                 loading: {
+                    msgText:'<?php echo JText::_('COM_TZ_PORTFOLIO_LOADING_TEXT');?>',
                     finishedMsg: '',
                     img:'<?php echo JURI::root();?>components/com_tz_portfolio/assets/ajax-loader.gif',
                     selector: '#tz_append'
