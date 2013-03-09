@@ -317,17 +317,7 @@ if (!empty($this->item->pagination) AND $this->item->pagination AND !$this->item
 ?>
 
 <div class="TzArticleDescription">
-  <div class="TzArticleIntrotext">
-  <?php
-      //echo $this->item->introtext; ?>
 	  <?php echo $this -> item -> text;?>
-  </div>
-  <div class="TzArticleFulltext">
-  <?php
-    echo $this->item->fulltext;
-  ?>
-  </div>
-
 </div>
 <?php echo $this -> loadTemplate('extra_fields');?>
 
