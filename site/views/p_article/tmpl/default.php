@@ -320,16 +320,8 @@ if (!empty($this->item->pagination) AND $this->item->pagination AND !$this->item
  endif;
 ?>
 
-<div class="TzArticleDescription">
-  <div class="TzArticleIntrotext">
-      <?php echo $this -> item -> text;?>
-  </div>
-  <div class="TzArticleFulltext">
-  <?php
-    echo $this->item->fulltext;
-  ?>
-  </div>
-
+<div class="TzArticleDescription">  
+      <?php echo $this -> item -> text;?> 
 </div>
 <?php echo $this -> loadTemplate('extra_fields');?>
 
